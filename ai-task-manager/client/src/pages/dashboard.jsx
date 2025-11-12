@@ -5,7 +5,7 @@ import { AssignTask } from '../components/assign-task/assign-task';
 const Dashboard = () => {
   return (
     <div>
-      <div>Dashboard :</div>
+      <div className='text-center font-semibold'>Dashboard :</div>
 
       <div>
         <CreateEmployee />
