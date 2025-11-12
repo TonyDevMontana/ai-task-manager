@@ -2,7 +2,7 @@ import React from 'react';
 
 export const CreateEmployee = () => {
   return (
-    <div className='flex flex-col gap-4 items-center'>
+    <form className='flex flex-col gap-4 items-center border border-black p-16'>
       <h1 className='font-bold italic text-lg'>CreateEmployee</h1>
 
       <input
@@ -29,6 +29,6 @@ export const CreateEmployee = () => {
       <button className='bg-slate-900 text-white rounded-lg p-3 cursor-pointer'>
         Create employee
       </button>
-    </div>
+    </form>
   );
 };
